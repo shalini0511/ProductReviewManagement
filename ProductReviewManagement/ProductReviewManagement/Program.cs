@@ -34,6 +34,13 @@ namespace ProductReviewManagement
                 case 6:
                     ProductReviewManager.SkipTopFiveRecords(productReviews);
                     break;
+                case 7:
+                    ProductReviewManager.AddingProductReview(productReviews);
+                    ProductReviewManager.CreateDataTable(productReviews);
+                    break;
+                case 8:
+                    ProductReviewManager.CreateDataTable(productReviews);
+                    break;
 
 
             }

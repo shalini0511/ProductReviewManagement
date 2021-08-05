@@ -76,5 +76,13 @@ namespace TestValidation
             int actual = ProductReviewManager.SkipTopFiveRecords(productList);
             Assert.AreEqual(expected, actual);
         }
+        [TestMethod]
+        public void TestMethodForReturnsOnlyIsLikeFieldAsTrue()
+        {
+            int expected = 18;
+
+            int actual = ProductReviewManager.CreateDataTable(productList);
+            Assert.AreEqual(expected, actual);
+        }
     }
 }
