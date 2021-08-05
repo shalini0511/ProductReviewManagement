@@ -22,6 +22,11 @@ namespace ProductReviewManagement
                 case 2:
                     ProductReviewManager.RetrieveTopThreeRating(productReviews);
                     break;
+                
+                case 4:
+                    ProductReviewManager.CountingProductId(productReviews);
+                    break;
+
             }
         }
     }
