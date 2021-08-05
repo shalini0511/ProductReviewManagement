@@ -40,6 +40,7 @@ namespace ProductReviewManagement
                     break;
                 case 8:
                     ProductReviewManager.CreateDataTable(productReviews);
+                    ProductReviewManager.AverageOfRating();
                     break;
 
 
