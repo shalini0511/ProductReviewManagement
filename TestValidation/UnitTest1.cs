@@ -94,5 +94,12 @@ namespace TestValidation
             Assert.AreEqual(expected, actual);
 
         }
+        [TestMethod]
+        public void TestMethodForReturnsCountOfReviewMessageContainsGood()
+        {
+            int expected = 5;
+            int actual = ProductReviewManager.ReturnsReviewMessageContainsGood();
+            Assert.AreEqual(expected, actual);
+        }
     }
 }
